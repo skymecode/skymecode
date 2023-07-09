@@ -10,7 +10,9 @@
 
 [![My Skills](https://skillicons.dev/icons?i=java,spring,go,html,css,js,mysql,redis,idea&theme=light)](https://skillicons.dev)
 
-# :star:GitHub Stats:![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=skymecode&show_icons=true)
+# :star:GitHub Stats:
+
+# ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=skymecode&show_icons=true)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=skymecode)](https://github.com/anuraghazra/github-readme-stats)
 
