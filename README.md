@@ -4,7 +4,7 @@
 
 :heart_eyes:十分想做有趣的事情
 
-**:laughing:**一直coding停不下来
+:laughing:一直coding停不下来
 
 # 💻 Tech Stack:
 
@@ -18,7 +18,7 @@
 
 # :iphone: Socials:
 
-![Static Badge](https://img.shields.io/badge/bilibili-pass?link=https%3A%2F%2Fspace.bilibili.com%2F18188466%3Fspm_id_from%3D333.1007.0.0)
+![哔哩哔哩](https://img.shields.io/badge/bilibili-pass?link=https%3A%2F%2Fspace.bilibili.com%2F18188466%3Fspm_id_from%3D333.1007.0.0)
 
 
 
