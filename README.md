@@ -1,10 +1,10 @@
 # :point_right:About Me:
 ### Skyme
-:question:：A Java developer with an undergraduate major in IoT
+:question:：A computer developer with an undergraduate major in IoT
 
-:heart_eyes:十分想做有趣的事情
+:heart_eyes:do something interesting
 
-:laughing:一直coding停不下来
+:laughing: thinking and coding 
 
 # 💻 Tech Stack:
 
