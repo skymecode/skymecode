@@ -1,6 +1,6 @@
 # :point_right:About Me:
 ### Skyme
-:question:：A computer developer with an undergraduate major in IoT
+:question:：A computer developer with an postgraduate major in gis
 
 :heart_eyes:do something interesting
 
