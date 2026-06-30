@@ -1,0 +1,12 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as n,c as a,f as i}from"./app-7cfa41e7.js";const r={},t=i(`<p>前言:配置还是太多了,不想搞配置了,为了快速开发,选择了SpringBoot,也就是Spring组织下的一个集成spring和springmvc以及tomcat等的项目,然后默认配置很多东西,约定大于配置</p><h2 id="springboot快速入门" tabindex="-1"><a class="header-anchor" href="#springboot快速入门" aria-hidden="true">#</a> SpringBoot快速入门</h2><h3 id="注解解释" tabindex="-1"><a class="header-anchor" href="#注解解释" aria-hidden="true">#</a> 注解解释</h3><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>@RestController 就是@Controller和@ResponseBody 组合
+@GettingMaping 就是@RequestMapping添加了method为GET
+@SpringBootConfiguration 表示当前是springboot的配置 组合注解
+	@Configuration 表示为配置类	在springboot中如果需要添加配置的时候可以使用这个注解
+	@Indexed 索引
+@EnableAutoConfiguration 启动自动配置
+@ComponentScan 组件扫描,类型xml中的component-scan 标签,从当前类的包开始扫描,包含当前包以及子包
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="启动器" tabindex="-1"><a class="header-anchor" href="#启动器" aria-hidden="true">#</a> 启动器</h3><p>在springboot中添加依赖的时候发现依赖总是包含了starter这个词,这个称为启动,启动器本质就是spring为了帮助我们完成自动化配置,提供了自动配置依赖,这些依赖就是启动器。是由spring-boot-starter-parent项目将依赖关系声明为一个或者多个启动器。这样的话我们就可以根据实际的需求将需要的启动器引入即可,比如当前是一个web项目,所以引入了一个web的启动器</p><h2 id="配置原理" tabindex="-1"><a class="header-anchor" href="#配置原理" aria-hidden="true">#</a> 配置原理</h2><h3 id="java配置" tabindex="-1"><a class="header-anchor" href="#java配置" aria-hidden="true">#</a> java配置</h3><p>在springboot中出现的配置可以使用java配置来完成,java配置主要依赖于java的类和注解来完成,可以替换xml配置，和xml的配置效果是一样的</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>@Configuration 一般加在类上面,表示当前类是一个配置类,这个配置可以替换spring中的xml文件
+@PropertySource(&quot;classpath:db.properties&quot;) 可以指定引入外部配置文件的地址
+@Value(&quot;com.mysql.jdbc.Driver&quot;)或者@Value(&quot;\${jdbc.driver}&quot;) 普通属性的值注入,可以使用\${name}方式配置文件的值
+@Bean 可以声明在方法上,将方法的返回值放入spring的容器,替换了xml的bean标签
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>​</p>`,11),s=[t];function o(d,l){return n(),a("div",null,s)}const u=e(r,[["render",o],["__file","springboot.html.vue"]]);export{u as default};

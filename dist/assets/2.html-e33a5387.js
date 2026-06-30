@@ -1,0 +1,14 @@
+import{_ as a}from"./plugin-vue_export-helper-c27b6911.js";import{o as i,c as e,f as n}from"./app-7cfa41e7.js";const d={},l=n(`<h1 id="面向对象基础" tabindex="-1"><a class="header-anchor" href="#面向对象基础" aria-hidden="true">#</a> 面向对象基础</h1><h3 id="面向对象和面向过程" tabindex="-1"><a class="header-anchor" href="#面向对象和面向过程" aria-hidden="true">#</a> 面向对象和面向过程</h3><ul><li>面向过程:面向过程可以理解为流水线上制造一个产品，需要每一步按顺序进行，并且需要知道每一步的细节。</li><li>面向对象:面向对象可以理解为黑盒,就和我们大部分人使用一个电子产品，我们不需要知道它内部如何构造的,只需要知道如何使用。</li></ul><h3 id="类和对象" tabindex="-1"><a class="header-anchor" href="#类和对象" aria-hidden="true">#</a> 类和对象</h3><ul><li>类:是一种描述,可以是种类,像人，动物等等。</li><li>对象:有着具体的属性，方法，比如这个人叫小明，他能打篮球。</li></ul><h3 id="类和对象的定义" tabindex="-1"><a class="header-anchor" href="#类和对象的定义" aria-hidden="true">#</a> 类和对象的定义</h3><ul><li>定义类:</li></ul><div class="language-Java line-numbers-mode" data-ext="Java"><pre class="language-Java"><code>class Dog {
+    String name;
+    String color;
+    int age;
+}//这里前面加上private最好，因为一般不会直接访问成员变量
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul><li>定义对象:</li></ul><div class="language-Java line-numbers-mode" data-ext="Java"><pre class="language-Java"><code>public class test1 {
+    public static void main(String[] args) {
+        Dog dog =new Dog();
+    }
+
+}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="成员变量和局部变量" tabindex="-1"><a class="header-anchor" href="#成员变量和局部变量" aria-hidden="true">#</a> 成员变量和局部变量</h3><ul><li>成员变量:用于定义类</li><li>局部变量:一般用在方法当中</li></ul><h3 id="构造函数" tabindex="-1"><a class="header-anchor" href="#构造函数" aria-hidden="true">#</a> 构造函数</h3><p>用于初始化对象,并且能够初始化对象中的属性,一般有无参构造和有参构造,但如果有参构造一般都要加上无参构造。</p><h3 id="this关键字" tabindex="-1"><a class="header-anchor" href="#this关键字" aria-hidden="true">#</a> this关键字</h3><p>this关键字的this是指向的当前调用的对象</p><div class="language-Java line-numbers-mode" data-ext="Java"><pre class="language-Java"><code>this.属性
+this.方法
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="对象的堆栈模型" tabindex="-1"><a class="header-anchor" href="#对象的堆栈模型" aria-hidden="true">#</a> 对象的堆栈模型</h3><ul><li>基础类型数据:int,char,boolean,long,byte</li><li>引用类型数据:数组，对象</li></ul><p>基本模型：</p><figure><img src="https://skyme-1307417630.cos.ap-chengdu.myqcloud.com/blog/image-20230520115304474.png" alt="image-20230520115304474" tabindex="0" loading="lazy"><figcaption>image-20230520115304474</figcaption></figure>`,21),s=[l];function r(c,t){return i(),e("div",null,s)}const o=a(d,[["render",r],["__file","2.html.vue"]]);export{o as default};
